@@ -30,14 +30,13 @@ console.log(dividir);
 
 console.log('------------Teste de Operacoes / Calculadora-----------------');
 
-function testeOperacao(num1, num2) {
-  console.log("Adiciona "+ (num1 + num2));
-  console.log("Subtracao"+ (num1 - num2));
-  console.log("Divisao"+ (num1 / num2));
-  console.log("Multiplicacao"+ (num1 * num2));
-}
 
-testeOperacao(10,10);
+console.log("Adiciona "+ soma(20, 40));
+console.log("Subtracao "+ subtracao(40, 18));
+console.log("Divisao "+ divisao(50, 10));
+console.log("Multiplicacao "+ multiplicacao(4,4));
+console.log("Divisao "+ divisao(0, 10));
+
 
 console.log('-----------Novo Teste de Operação----------------');
 
