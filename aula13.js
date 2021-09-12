@@ -130,13 +130,13 @@ let Bank = {
 }
 
 //Cliente
-console.log(Bank.searchClient("Sarah Connor"));
-console.log("------------------------------------------------------------")
+console.log(Bank.searchClient("Bruce Waine"));
+console.log("------------------------------------------------------------");
 
 //Depósito e Saldo
-console.log(Bank.deposit("Sarah Connor", 5000));
-console.log("------------------------------------------------------------")
+console.log(Bank.deposit("Bruce Waine", 5000));
+console.log("------------------------------------------------------------");
 
 //Saque e saldo.
-console.log(Bank.withdraw("Sarah Connor", 7602));
-console.log("------------------------------------------------------------")
+console.log(Bank.withdraw("Bruce Waine", 7177));
+console.log("------------------------------------------------------------");
