@@ -32,6 +32,14 @@ for(let i = 0; i <= 100; i++){
     console.log(i);
   }
 }
+
+//a mesma função do for, só que com o while
+while(numero <= 100) {
+  if(numero % 2 != 0) {
+    console.log(numero);
+  }
+  numero++;
+}
 // 2. mostrar números pares de 1 a 100
 console.log('-------- Contagem de números pares -----------');
 for(let i = 0; i <= 100; i++) {

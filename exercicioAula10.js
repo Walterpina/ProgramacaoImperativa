@@ -105,18 +105,22 @@ console.log(join(primeiroArray));
  * Somar Array
  */
 
+//criado o array de filmes
 let peliculas = ['start wars', 'matrix', 'mr. robot', 'o preço do amanhã', 'a vida é bela'];
 console.log(peliculas[2]);
 
+//função que transforma a escrita dos filmes em letras maiúsculas
 function filmes(filme) {
-  let novoFilme = filme.map(pelicula => pelicula.toUpperCase());
-  return novoFilme;
+  //criada uma variável que receberá o novo array de filmes
+  let novoFilme = filme.map(pelicula => pelicula.toUpperCase()); //mapeia o array e coloca em letras maiúsculas
+  return novoFilme;//retorna o novo array
 };
-console.log(filmes(peliculas));
+console.log(filmes(peliculas));//eu passo o array "peliculas" como parâmetro
 
 let novasPeliculas = ['toy story', 'finding Nemo', 'kung-fu panda', 'wally', 'fortnite'];
 
 function novoArray(elemento1, elemento2) {
+  //funcao que concatena (uni) dois arrays
   let unirArray = elemento1.concat(elemento2);
   return unirArray;
 }
@@ -137,14 +141,18 @@ const asiaScore = [8, 10, 6, 9, 10, 6, 6, 8, 4];
 const euroScore = [8, 10, 6, 8, 10, 6, 7, 9, 5];
 
 function compareNotas(elemento1, elemento2) {
+  //eu crio a condicional que se os arrays tiverem tamanho diferentes ele sai aqui
   if(elemento1.length != elemento2.length) {
     return "Arrays diferentes";
   }
+  //eu conto cada índice do array para começar a comparação
   for(let i = 0; i < elemento2.length; i++){
+    //se for verdadeiro ele sai aqui
     if(elemento2[i] === elemento1[i]){
       console.log('nota igual: '+elemento1[i] +' = '+elemento2[i]);
     } else {
-      console.log('nota diferente');
+      //se for falso ele sai aqui
+      console.log('nota diferente: '+elemento1[i] +' = '+elemento2[i]);
     }
   }
 }
