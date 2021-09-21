@@ -93,4 +93,4 @@ function ordenarNotas(el) {
   //ordem crescente de ordenção
 }
 
-console.log(alunos);
+console.log(ordenarNotas(alunos));
