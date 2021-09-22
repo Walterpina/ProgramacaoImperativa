@@ -70,9 +70,10 @@ consulte a documentação do MDN)
 
 let alunos = [
   { nome: "Marcos", nota: 1 },
-  { nome: "Everton", nota: 3 },
+  { nome: "Leandro", nota: 3 },
   { nome: "Alessandra", nota: 6},
-  { nome: "Rogelio", nota: 7 }
+  { nome: "Rogelio", nota: 7 },
+  { nome: "Everton", nota: 10 }
 ];
 
 function ordenarNomes(element) {
