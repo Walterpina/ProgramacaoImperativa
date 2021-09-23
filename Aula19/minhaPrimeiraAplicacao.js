@@ -90,8 +90,17 @@ let Altura = {
       return maior;
     }
   },
-  menorAltura: function(){}
+  menorAltura: function(altura){
+    let menor = 0;
+    for(i in pessoas) {
+      if(menor > pessoas[i].altura) {
+        menor = pessoas[i].altura;
+      }
+    }
+    return menor;
+  }
 };
 console.log(Altura.maiorAltura());
+console.log(Altura.menorAltura());
 
 
